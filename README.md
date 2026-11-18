@@ -18,6 +18,7 @@ npm run preview
 
 ## Included interactions
 
+- Opening pitch video popup with YouTube embed and prominent Top 10 PDF download
 - Overview, Leaderboards, Methodology, Original USPs, and Audit Trail views
 - Batter/bowler toggle, player search, sorting, CSV export, and player deep-dive modal
 - Weight sliders with live weighted-score preview

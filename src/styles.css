@@ -19,3 +19,26 @@ h1,h2,h3,h4,.brand-name,.mini-note b,.method-pillar b,.audit-step b{font-family:
 .method-pillar span,.audit-step span,.pillar-num{width:30px;height:30px;border:1px solid #D91C8A;border-radius:50%;display:inline-grid;place-items:center;color:#D91C8A;font:700 10px/1 'Avenir Next',Avenir,sans-serif;font-variant-numeric:tabular-nums lining-nums;letter-spacing:0}
 .pillar-num{width:25px;height:25px;border-color:#d8c4d0;color:#BD4E86}
 .audit-step span{width:34px;height:34px;font-size:11px}
+
+.hero-actions{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.button-top10{background:#182641;color:#fff;border:1px solid #D91C8A;box-shadow:inset 0 0 0 1px #D91C8A;font-weight:800}
+.button-top10:hover{background:#243653;color:#fff}
+.pitch-backdrop{z-index:80;background:rgba(13,22,43,.88);backdrop-filter:blur(5px);padding:22px}
+.pitch-modal{position:relative;width:min(900px,100%);max-height:95vh;overflow:auto;border-radius:16px;background:#fff;color:#182641;box-shadow:0 28px 90px #090f1d80;border-top:7px solid #D91C8A;padding:28px}
+.pitch-copy{padding-right:45px;margin-bottom:18px}
+.pitch-kicker{display:inline-flex;align-items:center;gap:8px;color:#BD4E86;font-size:10px;font-weight:800;letter-spacing:.16em}
+.pitch-kicker span{width:8px;height:8px;border-radius:50%;background:#D91C8A;box-shadow:0 0 0 4px #fbe3f0}
+.pitch-copy h2{font:800 clamp(24px,4vw,38px)/1.08 'Avenir Next',Avenir,sans-serif;color:#182641;margin:13px 0 6px;letter-spacing:-.02em}
+.pitch-copy p{font-size:13px;color:#5f6b7e;margin:0}
+.pitch-video{position:relative;width:100%;aspect-ratio:16/9;background:#0c1425;border-radius:9px;overflow:hidden}
+.pitch-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.pitch-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:17px}
+.pitch-dismiss{margin-left:auto;border:0;background:transparent;color:#56627a;font-size:12px;font-weight:700;padding:10px}
+.pitch-close{z-index:2;background:#fff}
+@media(max-width:600px){.hero-actions{align-items:stretch;flex-direction:column}.hero-actions .button{width:100%}.pitch-backdrop{padding:12px}.pitch-modal{padding:20px 15px 15px;border-radius:12px}.pitch-actions{align-items:stretch;flex-direction:column}.pitch-actions .button{width:100%}.pitch-dismiss{margin:0}.pitch-copy h2{padding-right:25px}}
+
+.resource-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 4.1%;background:#FFF0F6;border-bottom:1px solid #f2d4e4}
+.resource-copy{display:grid;gap:2px}.resource-copy span{font-size:8px;font-weight:800;letter-spacing:.15em;color:#BD4E86}.resource-copy b{font-size:12px;color:#182641}
+.resource-actions{display:flex;align-items:center;gap:9px}.resource-actions a{min-height:36px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 13px;border-radius:5px;text-decoration:none;font-size:10px;font-weight:800;letter-spacing:.01em;white-space:nowrap;transition:background .18s,color .18s}
+.resource-video{background:#D91C8A;color:#fff}.resource-video:hover{background:#BD1678}.resource-pdf{background:#182641;color:#fff;border:1px solid #D91C8A}.resource-pdf:hover{background:#263a5c}
+@media(max-width:760px){.resource-bar{padding:9px 16px;align-items:flex-start;flex-direction:column;gap:8px}.resource-copy{display:none}.resource-actions{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:7px}.resource-actions a{font-size:9px;padding:0 7px;min-height:38px}}
