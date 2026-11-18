@@ -1,4 +1,4 @@
-# T20 Clutch Performance Index
+# Pressure? What pressure?
 
 Responsive React dashboard for the SupeRR Selector Season 2 Round 1 case study.
 
@@ -25,4 +25,8 @@ npm run preview
 
 ## Data note
 
-The dashboard uses the player-level scorecard values and global counts supplied in the project brief. The ranks 11–20 rows are illustrative reference estimates because no verified near-miss table was included with the brief. Replace them with pipeline outputs before presenting those rows as calculated results. The pressure curve is illustrative. This interface does not independently recalculate the supplied scorecard from raw delivery files.
+The dashboard presents the player-level scorecard values and global counts supplied in the project brief. These values are labeled as supplied project data and are not independently validated by this interface. Unsourced ranks 11–20 have been removed. The pressure curve and field-manipulation figures remain illustrative and are labeled as such. The interface does not recalculate the scorecard from raw delivery files.
+
+## Before public launch
+
+The privacy and terms pages and a custom favicon are included. Connect and verify the intended custom domain before launch. Review both policy pages against the actual hosting setup and applicable requirements. No deployment or domain configuration has been performed.
